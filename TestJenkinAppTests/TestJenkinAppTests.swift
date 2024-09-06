@@ -19,7 +19,7 @@ final class TestJenkinAppTests: XCTestCase {
     }
 
     func testExample() throws {
-        XCTAssertTrue(2*2, 4)
+        XCTAssertTrue(2*2 == 4)
     }
 
     func testPerformanceExample() throws {
